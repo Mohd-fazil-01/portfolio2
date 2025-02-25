@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>personal portfolio website</title>
+
+    <!-- main css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header  Design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar a">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+     <!--Home section Design-->
+    <section class="home" id="home">
+        <div class="home-container">
+    <h3>Hi, Myself</h3>
+    <h1>Mohd Fazil</h1>
+    <h3>And I'm a <span id="changing-text"> Full Stack Developer</span></h3>
+    <p>
+        <h3>"I’m Mohd Fazil, a passionate Full Stack Developer skilled in both frontend and backend development. I love creating dynamic, user-friendly interfaces while ensuring powerful and scalable backend systems for seamless digital experiences."</h3>
+    </p>
+    <div class="social-media">
+        <a href="https://www.linkedin.com/in/mohd-fazil0011/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Mohd-fazil-01"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/its_faaiz_01/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    
+    
+    
+          <a href="#" class="btn">Download Resume</a>
+        </div>
+        
+        <div class="home-img">
+            <img src="fazil2.png" alt="">
+        </div>
+     </section>
+
+
+      <!--ABOUT SECTION DESIGN-->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/back.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>"Hey, I’m Mohd Fazil – a passionate Full Stack Developer with expertise in both frontend and backend development. I love creating seamless, user-friendly interfaces while ensuring robust, scalable backend solutions. With a strong foundation in web technologies, I turn ideas into dynamic and interactive digital experiences. Welcome to my portfolio – let’s build something amazing!"</p>
+            <a href="About.html" class="btn">Read more</a>
+        </div>
+      </section>
+
+       <!--SERVICE SECTION DESIGN-->
+       <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+    
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Full Stack Web Development</h3>
+                <p>I develop dynamic, responsive, and user-friendly websites using modern technologies. From interactive front-end designs to scalable backend systems, I ensure seamless functionality and performance.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Backend Development</h3>
+                <p>Building secure, efficient, and high-performing backend systems is my expertise. I work with databases, APIs, authentication, and server-side logic to create powerful web applications.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Secure Authentication Systems</h3>
+                <p>I implement robust user authentication and authorization systems, ensuring data security with password hashing, session management, and role-based access control.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    
+
+      <!-- PORTFOLIO SECTION DESIGN -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <!-- User Authentication System -->
+        <div class="portfolio-box">
+            <img src="user_authentication.webp" alt="User Authentication System">
+            <div class="portfolio-layer">
+                <h4>User Authentication System</h4>
+                <p>Secure user authentication system with sign-up, login, password hashing, session management, and role-based access control.</p>
+                <a href="#" class="fa-solid fa-up-right-from-square"></a>
+            </div>
+        </div>
+
+        <!-- Employee Management System -->
+        <div class="portfolio-box">
+            <img src="emp_management.webp" alt="Employee Management System">
+            <div class="portfolio-layer">
+                <h4>Employee Management System</h4>
+                <p>A web application that allows administrators to perform CRUD operations on employee records with validation and authentication.</p>
+                <a href="#" class="fa-solid fa-up-right-from-square"></a>
+            </div>
+        </div>
+
+        <!-- Lost and Found System -->
+        <div class="portfolio-box">
+            <img src="lost_found.webp" alt="Lost and Found System">
+            <div class="portfolio-layer">
+                <h4>Lost and Found System</h4>
+                <p>A platform for reporting and recovering lost items, designed with an easy-to-use interface for users to list and claim lost items.</p>
+                <a href="#" class="fa-solid fa-up-right-from-square"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!--CONTACT SECTION DESIGN-->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+           <input type="text" placeholder="Full Name">
+           <input type="email" placeholder="Email Address"> 
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Nmuber">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+ </section>
+
+  <!--FOOTER DESIGN-->
+
+  <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2025 by @Mohd Fazil | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+  <!--MAIN JS-->
+     <script src="main.js"></script>
+</body>
+</html>
